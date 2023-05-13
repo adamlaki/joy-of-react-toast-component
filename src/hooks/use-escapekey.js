@@ -1,7 +1,6 @@
 import React from 'react';
 
 function useEscapeKey(callback) {
-  console.log('render');
   React.useEffect(() => {
     function handleKeyDown(event) {
       if (event.code === 'Escape') {
